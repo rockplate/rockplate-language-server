@@ -1,5 +1,5 @@
 {
-  "name": "rockplate-language-support",
+  "name": "rockplate-language-server",
   "version": "1.0.0-pre.0",
   "description": "Rockplate Language Server implementation",
   "main": "dist/rockplate.min.js",
