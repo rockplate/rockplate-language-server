@@ -16,9 +16,7 @@ const createConfig = (options) => {
     output: {
       path: options.output || path.resolve(__dirname, 'dist'),
       filename: 'rockplate-language-server' + (options.mode === 'production' ? '.min' : '') + '.js',
-      library: 'rockplate-language-server',
       libraryTarget: 'commonjs',
-      // globalObject: "typeof self !== 'undefined' ? self : this",
     },
     module: {
       rules: [
