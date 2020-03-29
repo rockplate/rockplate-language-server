@@ -1,6 +1,6 @@
 {
   "name": "rockplate-language-server",
-  "version": "1.0.0-pre.2",
+  "version": "1.0.0-pre.3",
   "description": "Rockplate Language Server implementation",
   "main": "dist/rockplate-language-server.min.js",
   "types": "types/index.d.ts",
