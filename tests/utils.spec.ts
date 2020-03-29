@@ -393,6 +393,10 @@ Programming Languages
       expected?: Expected;
     }[] = [
       {
+        offset: text.indexOf('"schema":'),
+        expected: undefined,
+      },
+      {
         offset: text.indexOf('Languages'),
         expected: undefined,
       },

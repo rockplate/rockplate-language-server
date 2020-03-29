@@ -90,7 +90,7 @@ export class Utils {
     const offset = document.offsetAt(params.position);
     const builder = new Builder(text, this.getSchemaResolver(document, sendRequest));
     await builder.build();
-    const block = builder.getBlockAt(offset) as Block;
+    const block = builder.getBlockAt(offset);
 
     let output = '';
     let range = Range.create(params.position, params.position);
@@ -131,9 +131,11 @@ export class Utils {
       } else {
         return unknown;
       }
-    } else {
+    } else if (block instanceof CommentBlock) {
       // comment
       output = getOutput('comment', '', block.content.trim());
+    } else {
+      return unknown;
     }
 
     return {
