@@ -7,4 +7,25 @@
 
 # Rockplate Language Server
 
-Language Server Protocol (LSP) implementation for Rockplate language 
+[Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/) implementation for Rockplate language which is used by [Rockplate VSCode Extension](https://github.com/rockplate/rockplate-vscode)
+
+## Usage
+
+Refer to [Rockplate VSCode](https://github.com/rockplate/rockplate-vscode) for example usage
+
+```
+npm install rockplate-language-server
+```
+
+```javascript
+// run-server.js
+
+const rockplateServer = require('rockplate-language-server');
+// for non minified version: require('rockplate-language-server/dist/rockplate-language-server')
+
+rockplateServer.run();
+```
+
+```
+node run-server.js
+```
