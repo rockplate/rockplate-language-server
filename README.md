@@ -9,6 +9,12 @@
 
 [Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/) implementation for Rockplate language which is used by [Rockplate VSCode Extension](https://github.com/rockplate/rockplate-vscode)
 
+## Features
+
+- Linting
+- Code completion (IntelliSense)
+- Hover hints
+
 ## Usage
 
 Refer to [Rockplate VSCode](https://github.com/rockplate/rockplate-vscode) for example usage
