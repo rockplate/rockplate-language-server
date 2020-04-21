@@ -1,6 +1,6 @@
 {
   "name": "rockplate-language-server",
-  "version": "1.0.0-pre.4",
+  "version": "1.0.0",
   "description": "Rockplate Language Server implementation",
   "main": "dist/rockplate-language-server.min.js",
   "types": "types/index.d.ts",
@@ -30,6 +30,7 @@
     "@types/jest": "^25.1.2",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
     "tslint": "^6.0.0",
